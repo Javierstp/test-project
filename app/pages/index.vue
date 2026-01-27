@@ -38,7 +38,7 @@ const page = ref(meals.value ? 1 : 0);
     <h1 class="mb-6 text-center text-2xl font-bold">Meals</h1>
 
     <div class="">
-      <SearchBar />
+      <CommonsSearchBar />
     </div>
 
     <p v-if="pending" class="text-center text-gray-500">Loading meals...</p>

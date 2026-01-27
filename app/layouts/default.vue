@@ -1,13 +1,11 @@
-<script setup lang="ts">
-import MyFooter from "~/components/MyFooter.vue";
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div>
-    <MyHeader />
+    <CommonsMyHeader />
     <UMain>
       <NuxtPage />
     </UMain>
-    <MyFooter />
+    <CommonsMyFooter />
   </div>
 </template>
